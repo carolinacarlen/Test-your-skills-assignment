@@ -1,9 +1,51 @@
 body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: normal;
+  color: #ffffff;
 }
 
 header {
+  height: 820px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 26px;
+}
+
+.headintro {
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+  margin-top: 10px;
+}
+
+body {
   background-image: url(../images/backgroundmounatin.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,7 +53,7 @@ header {
   background-attachment: fixed;
 }
 
-.logonavbar {
+.form__search {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,9 +61,57 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+}
+.form__search button {
+  font-family: "Aleo", serif;
+  font-size: 14px;
+  line-height: 26px;
+  border: solid;
+  border-width: 1px;
+  border-color: white;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  background: #5474fd;
+  color: #ffffff;
+  word-spacing: 1rem;
+  height: 42px;
+  text-align: center;
 }
 
-.nav__bar {
+.fa-solid {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+input[type=text] {
+  width: 500px;
+  height: 42px;
+  padding-right: 50px;
+  font-family: "Aleo", serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 2.8px;
+}
+
+input[type=submit] {
+  margin-left: -50px;
+  height: 20px;
+  width: 50px;
+}
+
+.logonavbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +126,27 @@ header {
   border-bottom-left-radius: 8px;
 }
 
-body {
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+nav__list {
+  list-style: none;
+  position: relative;
+  text-align: left;
+}
+nav__item {
+  text-decoration: none;
+}
+
+* {
   margin: auto;
   max-width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
