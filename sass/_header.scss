@@ -1,0 +1,22 @@
+header {
+  background-image: url(../images/backgroundmounatin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.logonavbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__bar {
+  display: flex;
+  flex-direction: row;
+  background: #5474fd;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #0e0e0e;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
