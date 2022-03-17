@@ -22,11 +22,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  color: #5474fd;
 }
-.sect2opt {
+
+fa-solid fa-magnifying-glass {
+  color: #5474fd;
+}
+.botsect2text {
   font-family: "Aleo";
-  font-style: normal;
-  font-weight: 400;
+  font-weight: lighter;
   font-size: 36px;
   line-height: 26px;
   color: #e8e8e8;

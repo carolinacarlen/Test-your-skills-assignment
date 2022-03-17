@@ -1,0 +1,56 @@
+.section3 {
+  height: 700px;
+  display: flex;
+  background-image: url(../images/backgroundhouse.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  right: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  width: 40%;
+  height: 55%;
+  padding: 3%;
+
+  &__text1 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+  }
+
+  &__text2 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  &__text3 {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #e8e8e8;
+  }
+}
