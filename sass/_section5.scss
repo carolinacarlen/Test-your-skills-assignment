@@ -1,0 +1,52 @@
+.section5 {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/backgroundhiker.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+
+.sect5headline {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.sect5imgtext {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.sect5img {
+  width: 40%;
+}
+.sect5text {
+  width: 40%;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  color: #e8e8e8;
+  background: #333333;
+  width: 668px;
+  height: 287px;
+}
