@@ -2,6 +2,7 @@
   background-color: #333333;
   height: 337px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -21,8 +22,11 @@
 .botsect2icons {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  gap: 22rem;
+  position: relative;
+  bottom: 20px;
   color: #5474fd;
+  font-size: 50px;
 }
 
 fa-solid fa-magnifying-glass {
@@ -37,4 +41,5 @@ fa-solid fa-magnifying-glass {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  gap: 12rem;
 }

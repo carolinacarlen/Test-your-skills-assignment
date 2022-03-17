@@ -1,6 +1,7 @@
 .section4 {
   height: 700px;
   display: flex;
+  flex-wrap: wrap;
   background-image: url(../images/backgroundrocks.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,6 +9,19 @@
   background-attachment: fixed;
   justify-content: center;
   align-items: center;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  width: 40%;
+  height: 55%;
+  padding: 3%;
   position: relative;
-  right: 30px;
+  left: 20%;
 }

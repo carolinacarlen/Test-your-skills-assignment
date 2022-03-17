@@ -83,6 +83,10 @@ h1 {
   text-align: center;
 }
 
+button:hover {
+  background-color: #aaa;
+}
+
 input[type="text"] {
   width: 500px;
   height: 42px;
@@ -121,7 +125,7 @@ input[type="submit"] {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .scrolldown__text {
@@ -213,6 +217,10 @@ a {
   margin-left: 30px;
 }
 
+a:hover {
+  background-color: #aaa;
+}
+
 .logo {
   font-family: "Josefin Sans";
   font-style: normal;
@@ -225,6 +233,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -336,6 +346,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -372,10 +384,11 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  gap: 22rem;
+  position: relative;
+  bottom: 20px;
   color: #5474fd;
+  font-size: 50px;
 }
 
 fa-solid fa-magnifying-glass {
@@ -398,6 +411,7 @@ fa-solid fa-magnifying-glass {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  gap: 12rem;
 }
 
 .section3 {
@@ -405,6 +419,8 @@ fa-solid fa-magnifying-glass {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-image: url(../images/backgroundhouse.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -416,8 +432,6 @@ fa-solid fa-magnifying-glass {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-  right: 30px;
 }
 
 .card {
@@ -440,6 +454,8 @@ fa-solid fa-magnifying-glass {
   width: 40%;
   height: 55%;
   padding: 3%;
+  position: relative;
+  right: 20%;
 }
 
 .card__text1 {
@@ -477,6 +493,8 @@ fa-solid fa-magnifying-glass {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-image: url(../images/backgroundrocks.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -488,8 +506,30 @@ fa-solid fa-magnifying-glass {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #232323;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+  width: 40%;
+  height: 55%;
+  padding: 3%;
   position: relative;
-  right: 30px;
+  left: 20%;
 }
 
 .section5 {
@@ -497,6 +537,8 @@ fa-solid fa-magnifying-glass {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -536,6 +578,8 @@ fa-solid fa-magnifying-glass {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -549,11 +593,10 @@ fa-solid fa-magnifying-glass {
 }
 
 .sect5img {
-  width: 40%;
+  width: 30%;
 }
 
 .sect5text {
-  width: 40%;
   font-family: "Josefin Sans";
   font-style: normal;
   font-weight: 400;
@@ -575,13 +618,60 @@ fa-solid fa-magnifying-glass {
   padding: 30px;
   color: #e8e8e8;
   background: #333333;
-  width: 668px;
-  height: 287px;
+  width: 40%;
+  height: 100%;
 }
 
 footer {
   height: 268px;
   background: #232323;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerlogo {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.footertext {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footericons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
 }
 
 * {
@@ -589,5 +679,10 @@ footer {
   max-width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+body {
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 /*# sourceMappingURL=index.css.map */

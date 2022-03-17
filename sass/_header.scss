@@ -54,6 +54,10 @@ h1 {
   text-align: center;
 }
 
+button:hover {
+  background-color: #aaa;
+}
+
 input[type="text"] {
   width: 500px;
   height: 42px;
@@ -79,7 +83,7 @@ input[type="submit"] {
   text-align: center;
   align-items: center;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   &__text {
     color: #ffffff;
     text-decoration: none;
@@ -137,6 +141,10 @@ a {
   font-size: 14px;
   line-height: 26px;
   margin-left: 30px;
+}
+
+a:hover {
+  background-color: #aaa;
 }
 
 .logo {
