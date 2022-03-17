@@ -134,8 +134,7 @@ input[type=submit] {
   font-weight: bold;
 }
 
-.fa-solid {
-  font-weight: lighter;
+fa-thin {
   font-size: 20px;
   color: #ffffff;
 }
@@ -572,6 +571,11 @@ fa-solid fa-magnifying-glass {
   background: #333333;
   width: 668px;
   height: 287px;
+}
+
+footer {
+  height: 268px;
+  background: #232323;
 }
 
 * {
