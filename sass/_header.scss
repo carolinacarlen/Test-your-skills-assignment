@@ -2,6 +2,11 @@ header {
   height: 820px;
   display: flex;
   flex-direction: column;
+  background-image: url(../images/backgroundmounatin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .top__info {
@@ -23,14 +28,6 @@ h1 {
   line-height: 26px;
   letter-spacing: 6.82px;
   margin-top: 10px;
-}
-
-body {
-  background-image: url(../images/backgroundmounatin.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .form__search {
@@ -57,11 +54,6 @@ body {
   }
 }
 
-.fa-solid {
-  font-weight: lighter;
-  font-size: 20px;
-}
-
 input[type="text"] {
   width: 500px;
   height: 42px;
@@ -79,25 +71,79 @@ input[type="submit"] {
   width: 50px;
 }
 
+.scrolldown {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  &__text {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    &__text:hover {
+      font-weight: bold;
+    }
+  }
+}
+
+.fa-solid {
+  font-weight: lighter;
+  font-size: 20px;
+  color: #ffffff;
+}
+
 .logonavbar {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
   background: #5474fd;
   letter-spacing: 1px;
-  text-shadow: 1px 1px 1px #0e0e0e;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
 }
 
-nav {
+.nav__bar {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  height: 80px;
+  margin-top: 25px;
+
   &__list {
     list-style: none;
-    position: relative;
-    text-align: left;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
   }
-  &__item {
-    text-decoration: none;
-  }
+}
+ul {
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  margin-left: 30px;
+}
+
+h2 {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
 }
