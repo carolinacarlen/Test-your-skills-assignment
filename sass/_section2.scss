@@ -1,0 +1,36 @@
+.section2 {
+  background-color: #333333;
+  height: 337px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shape1img {
+  width: 777px;
+  height: 99px;
+  margin-top: 40px;
+}
+
+.botsect2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.botsect2icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.sect2opt {
+  font-family: "Aleo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 26px;
+  color: #e8e8e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
